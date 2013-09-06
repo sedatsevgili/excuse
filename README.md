@@ -1,4 +1,6 @@
 excuse
 ======
 
-Get an excuse immediately
+Get an excuse immediately for your work!
+
+This code fetches excuses from http://www.developerexcuses.com/
