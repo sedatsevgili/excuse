@@ -1,8 +1,16 @@
 <?php
 
-class ExcuseGenerator(){
+/**
+ * Excuse Generator :)
+ * @author Sedat Sevgili
+ * @see https://github.com/sedatsevgili/excuse
+ */
+class ExcuseGenerator{
 
-	
+	/**
+	 * Generates an excuse
+	 * @return string
+	 */
 	public static function excuse() {
 		$url = "http://developerexcuses.com/";
 		$curlHandler = curl_init($url);
@@ -19,7 +27,6 @@ class ExcuseGenerator(){
 		}
 		return $matches[1][0] . PHP_EOL;
 	}
-
 }
 
-ExcuseGenerator::excuse();
+echo ExcuseGenerator::excuse();
