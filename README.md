@@ -1,7 +1,7 @@
 excuse
 ======
 
-Get an excuse immediately for your work!
+Get an excuse immediately for your work! :(
 
 This code fetches excuses from http://www.developerexcuses.com/
 
